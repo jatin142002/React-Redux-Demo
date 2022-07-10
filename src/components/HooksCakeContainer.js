@@ -6,7 +6,7 @@ function HooksCakeContainer() {
 
     // this hook accepts function as an argument and i.e called as selector function this function accepts
     // redux state as its argument 
-    const numofCakes = useSelector(state=>state.numofCakes);
+    const numofCakes = useSelector(state=>state.cake.numofCakes);
     const dispatch = useDispatch();
 
     return (
